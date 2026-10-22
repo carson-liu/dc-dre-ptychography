@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+._*
+.env
+
+# Data
+*.npy
+*.npz
+*.tif
+*.tiff
+!simulation/assets/probe.npy
+!simulation/assets/amplitude.tiff
+!simulation/assets/phase.tiff
+
+# Generated results and other checkpoints
+*.pth
+*.pt
+!checkpoints/*/model.pth
+results/
+runs/
